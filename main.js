@@ -1,3 +1,8 @@
+import { countryPeople, famousAreas } from './data1.js';
+
+// console.log(countryPeople);
+console.log(countryPeople, famousAreas());
+
 const btn = document.querySelector('.btn-country');
 const countries = document.querySelector('.countries');
 
